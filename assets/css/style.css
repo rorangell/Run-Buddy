@@ -1,6 +1,7 @@
 * {
     margin:0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -42,5 +43,23 @@ header nav ul li a {
 }
 
 footer {
-    background-color: yellowgreen;
+    background-color:#fce138;
+    padding: 40px 35px;    
+}
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin:0;
+}
+
+footer div {
+    float:right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
 }
